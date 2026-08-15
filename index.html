@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>UQAB | عُقاب</title>
+    <!-- Fonts bundled locally for offline APK support -->
+    <link rel="stylesheet" href="/Program Files/Git/uqab-preview/assets/fonts/outfit.css" />
+    <link rel="stylesheet" href="/Program Files/Git/uqab-preview/assets/fonts/tajawal.css" />
+    <script type="module" crossorigin src="/Program Files/Git/uqab-preview/assets/index-Do3JCPJv.js"></script>
+    <link rel="stylesheet" crossorigin href="/Program Files/Git/uqab-preview/assets/index-BQT4eL6e.css">
+  </head>
+  <body>
+    <script>
+      // Apply saved theme/language before React mounts to avoid a first-paint flash.
+      try {
+        var t = JSON.parse(localStorage.getItem('uqab.theme'));
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        var l = JSON.parse(localStorage.getItem('uqab.language'));
+        if (l === 'ar' || l === 'en') {
+          document.documentElement.lang = l;
+          document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+        }
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+  </body>
+</html>

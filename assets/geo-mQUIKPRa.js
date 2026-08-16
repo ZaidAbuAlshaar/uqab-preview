@@ -1,0 +1,1 @@
+function r(n,a){const t=M=>M*Math.PI/180,s=t(a[0]-n[0]),o=t(a[1]-n[1]),c=t(n[0]),h=t(a[0]),e=Math.sin(s/2)**2+Math.cos(c)*Math.cos(h)*Math.sin(o/2)**2;return 2*6371*Math.asin(Math.sqrt(e))}function i(n){let a=0;for(let t=1;t<n.length;t++)a+=r(n[t-1],n[t]);return a}export{r as h,i as p};

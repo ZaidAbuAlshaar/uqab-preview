@@ -1,0 +1,1 @@
+import{r as s}from"./index-CBCeGs66.js";function l(n=1024){const[e,o]=s.useState(null),[u,c]=s.useState(null),i=s.useCallback(t=>o(t),[]);return s.useEffect(()=>{if(!e)return;const t=()=>c(e.getBoundingClientRect().width>=n);t();const r=new ResizeObserver(t);return r.observe(e),()=>r.disconnect()},[e,n]),{ref:i,isDesktop:u}}export{l as u};

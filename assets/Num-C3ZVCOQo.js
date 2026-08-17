@@ -1,1 +1,0 @@
-import{j as r}from"./index-yDkVh3-e.js";function a({children:n,className:t}){return r.jsx("bdi",{className:["num",t].filter(Boolean).join(" "),children:n})}function i(n,t=""){return`${n<0?"−":n>0?"+":""}${Math.abs(n)}${t}`}function e(n){return i(n,"%")}function f(n){return`⁦${n}⁩`}export{a as N,i as a,e as f,f as i};

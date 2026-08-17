@@ -1,0 +1,1 @@
+import{j as r}from"./index-Ct-kWSs5.js";function e({children:n,className:t}){return r.jsx("bdi",{className:["num",t].filter(Boolean).join(" "),children:n})}function i(n,t=""){return`${n<0?"−":n>0?"+":""}${Math.abs(n)}${t}`}function a(n){return i(n,"%")}function f(n){return`⁦${n}⁩`}export{e as N,a as f,f as i};
